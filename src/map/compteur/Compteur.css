@@ -1,0 +1,112 @@
+
+.container{
+    width: 200px;
+    height: 120px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 5%;
+    bottom: 5%;
+}
+
+.compteur-container{
+    background-image: url("./cmp.png");
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 120px;
+    border-radius: 10rem 10rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.compteur-value{
+    position: absolute;
+    top: 58px;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+}
+
+.pointer{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: red;
+    top: 90px;
+    position: absolute;
+}
+
+.arrow-container{
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    position: absolute;
+}
+
+.arrow-wrapper{
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    position: relative;
+    transition: all 0.4s;
+    z-index: 10;
+    top: 36px;
+}
+
+.arrow{
+    width: 60px;
+    height: 4px;
+    background-color: red;
+    position: absolute;
+    top: 38px;
+    left: -18px;
+}
+
+.speed-0{
+    transform: rotate(0deg);
+}
+
+.speed-20{
+    transform: rotate(18deg);
+}
+
+.speed-40{
+    transform: rotate(36deg);
+}
+
+
+.speed-60{
+    transform: rotate(50deg);
+}
+
+
+
+.speed-80{
+    transform: rotate(65deg);
+}
+
+
+
+.speed-100{
+    transform: rotate(80deg);
+}
+.speed-120{
+    transform: rotate(100deg);
+}
+.speed-140{
+    transform: rotate(115deg);
+}
+.speed-160{
+    transform: rotate(130deg);
+}
+.speed-180{
+    transform: rotate(150deg);
+}
+.speed-200{
+    transform: rotate(165deg);
+}
+.speed-220{
+    transform: rotate(180deg);
+}
